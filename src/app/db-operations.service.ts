@@ -4,7 +4,7 @@ import 'rxjs/Rx';
 
 @Injectable()
 export class DbOperationsService {
-  apiURL = 'https://localhost/xampp/php-rest-api/';
+  apiURL = 'https://localhost/xampp/awd-rest-api/';
 
   constructor(private http: Http) {
   }
